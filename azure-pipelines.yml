@@ -24,4 +24,4 @@ steps:
     commands: |
       cd /home/aswinimonica
       chmod -R 777 Fairgate_Mig
-    readyTimeout: '20000'
+    readyTimeout: '90000'
