@@ -19,9 +19,11 @@ steps:
   displayName: 'Run a multi-line script'
 - task: SSH@0
   inputs:
-    sshEndpoint: 'Localhost'
+    sshEndpoint: 'azureSubscription'
     runOptions: 'commands'
     commands: |
       cd /home/aswinimonica
       chmod -R 777 Fairgate_Mig
+    failOnStdErr: false
+    interactiveSession: true
     readyTimeout: '90000'
