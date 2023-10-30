@@ -23,8 +23,8 @@ steps:
     runOptions: 'commands'
     commands: |
       echo 'I'm connected'
-      cd /home/aswinimonica
-      chmod -R 777 Fairgate_Mig
+      cd /home/aswinimonica/freestyle
+      chmod -R 777 'Lorem Ipsum'
     failOnStdErr: false
     interactiveSession: true
     readyTimeout: '90000'
