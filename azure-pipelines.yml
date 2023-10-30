@@ -22,6 +22,7 @@ steps:
     sshEndpoint: 'azureSubscription'
     runOptions: 'commands'
     commands: |
+      echo 'I'm connected'
       cd /home/aswinimonica
       chmod -R 777 Fairgate_Mig
     failOnStdErr: false
